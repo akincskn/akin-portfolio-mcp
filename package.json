@@ -1,0 +1,41 @@
+{
+  "name": "akin-portfolio-mcp",
+  "version": "1.0.1",
+  "description": "MCP server for Akın Coşkun's developer portfolio. Query projects, skills, and experience through AI assistants.",
+  "type": "module",
+  "bin": {
+    "akin-portfolio-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "portfolio",
+    "ai",
+    "claude",
+    "developer",
+    "akin-coskun"
+  ],
+  "author": "Akın Coşkun <akinc427@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
