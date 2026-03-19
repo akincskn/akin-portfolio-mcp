@@ -12,6 +12,8 @@ export interface About {
   languages: string[];
   certifications: string[];
   interests: string[];
+  medium?: string;
+  devto?: string;
 }
 
 export interface Skills {

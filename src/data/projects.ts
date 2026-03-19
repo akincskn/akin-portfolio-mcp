@@ -2,6 +2,23 @@ import type { Project } from "../types/index.js";
 
 export const projects: Project[] = [
   {
+    name: "GEO Analyzer",
+    description:
+      "AI-powered GEO/AEO website analysis tool. Enter any URL and get a detailed 100-point score across 5 categories: Content Structure, E-E-A-T Signals, Technical AI Readiness, Content Quality, and AI Search Optimization. Provides actionable recommendations to improve AI search visibility in ChatGPT, Perplexity, and Google AI Overviews.",
+    stack: ["Next.js 14", "TypeScript", "Tailwind CSS", "shadcn/ui", "NextAuth.js v5", "Prisma", "Neon", "Groq Llama 3.3", "Google Gemini", "Cheerio", "Vercel"],
+    url: "https://geo-analyzer-sepia.vercel.app",
+    github: "https://github.com/akincskn/geo-analyzer",
+    highlights: [
+      "5-category GEO/AEO analysis (100-point scoring)",
+      "AI-powered content quality evaluation (Groq + Gemini fallback)",
+      "Technical SEO & schema markup detection",
+      "E-E-A-T signal analysis",
+      "Actionable improvement recommendations",
+      "Server-side HTML parsing with Cheerio",
+      "Zero-cost infrastructure",
+    ],
+  },
+  {
     name: "RivalRadar",
     description:
       "AI-powered competitor analysis tool. Enter a company name, get a full SWOT analysis, pricing comparison, and actionable recommendations in 60 seconds.",

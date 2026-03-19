@@ -1,6 +1,6 @@
 {
   "name": "akin-portfolio-mcp",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "MCP server for Akın Coşkun's developer portfolio. Query projects, skills, and experience through AI assistants.",
   "type": "module",
   "bin": {

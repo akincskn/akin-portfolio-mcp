@@ -35,7 +35,7 @@ export function getExperienceSummary(): string {
       productionProjects: liveProjects,
       keyAreas,
       highlight:
-        "Built 8+ production SaaS applications with zero-cost infrastructure, specializing in AI integrations and workflow automation.",
+        "Built 9+ production SaaS applications with zero-cost infrastructure, specializing in AI integrations, workflow automation, and GEO/AEO optimization.",
     };
 
     return JSON.stringify(summary, null, 2);
