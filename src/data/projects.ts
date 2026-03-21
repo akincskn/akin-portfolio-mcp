@@ -2,6 +2,23 @@ import type { Project } from "../types/index.js";
 
 export const projects: Project[] = [
   {
+    name: "LeadPilot",
+    description: "AI-powered Sales Development Representative (SDR) agent. Define your target market, and the AI pipeline finds qualified leads, researches their companies, analyzes pain points, and generates personalized 3-email cold email outreach sequences. Built with a 4-agent AI pipeline: Lead Finder, Company Researcher, Pain Point Analyzer, and Email Composer.",
+    stack: ["Next.js 14", "TypeScript", "Tailwind CSS", "shadcn/ui", "NextAuth.js v5", "Prisma", "Neon", "Groq Llama 3.3", "Google Gemini", "Serper.dev", "Cheerio", "Vercel"],
+    url: "https://leadpilot-ashy.vercel.app",
+    github: "https://github.com/akincskn/leadpilot",
+    highlights: [
+      "4-agent AI pipeline (Lead Finder → Company Researcher → Pain Point Analyzer → Email Composer)",
+      "Personalized 3-email cold outreach sequences (Day 0, 3, 7)",
+      "Real-time campaign progress tracking with polling",
+      "Company website scraping and analysis with Cheerio",
+      "Pain point matching with relevance scoring (0-100)",
+      "Groq primary + Gemini fallback with JSON retry",
+      "SSRF protection and prompt injection sanitization",
+      "Zero-cost infrastructure",
+    ],
+  },
+  {
     name: "GEO Analyzer",
     description:
       "AI-powered GEO/AEO website analysis tool. Enter any URL and get a detailed 100-point score across 5 categories: Content Structure, E-E-A-T Signals, Technical AI Readiness, Content Quality, and AI Search Optimization. Provides actionable recommendations to improve AI search visibility in ChatGPT, Perplexity, and Google AI Overviews.",
